@@ -1,0 +1,79 @@
+html, body {
+    font-family: 'Mooli', sans-serif;
+    user-select: none;
+    background: #ffe5ec;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+input {
+    font-family: 'Mooli', sans-serif;
+    width: 80%;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#add-button {
+    font-family: 'Mooli', sans-serif;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    padding: 5px 10px;
+}
+
+div {
+    background: #ffc2d1;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#to-do-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0;
+}
+
+#to-do-list-container h2 {
+    text-decoration: underline;
+}
+
+#list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#list-container button {
+    font-family: 'Mooli', sans-serif;
+}
+
+#list-container button {
+    margin: 0px 10px 10px 10px;
+    width: 200px;
+    background: #023e8a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+#list-container button:hover {
+    background: #3d4b5a;
+}
